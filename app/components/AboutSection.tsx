@@ -8,22 +8,14 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2 grid grid-cols-4 gap-4">
-        <li>Node.js</li>
-        <li>Next.js</li>
-        <li>PostgreSQL</li>
-        <li>Unity</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Godot</li>
-        <li>C#</li>
-        <li>Python</li>
-        <li>C++</li>
-        <li>OpenCV</li>
-        <li>Git</li>
-        <li>Google Cloud Platform</li>
-        <li>LLM</li>
-        <li>Deep Learning</li>
-        <li>VR/AR</li>
+        <li>Python 4</li>
+        <li>HTML</li>
+        <li>OpenRocket</li>
+        <li>OpenMotor</li>
+        <li>Solidworks</li>
+        <li>Fusion 360</li>
+        <li>Ansys</li>
+        
       </ul>
       
     ),
@@ -33,8 +25,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Master&apos;s Computer Science - University of Texas Rio Grande Valley</li>
-        <li>Bachelor&apos;s Computer Science - University of Texas Rio Grande Valley</li>
+        <li>Bachelor&apos;s Pure and applied Physics - University of Texas Rio Grande Valley</li>
+        <li>associate&apos;s Liberal Studies - San Jacinto Community College & Sam Rayburn Early College HighSchool</li>
       </ul>
     ),
   },
@@ -66,13 +58,13 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a Game Developer with interest of many topics, from Machine Learning, to Theory.
-            Different skills I have acquired over the years to consider myself a Jack of All Trades, and
-            master to game development since its quite fun.
+            I am a physicist in learning, with interests in computer science and astronomy aswell.
+            I take interest in a majority of all stem subjects but these are easily my favorite. I am
+            deeply interested in SpaceX and other commercial space companies and strive to work in the growing 
+            space sector. My deep interest in space is what pushes me to be who I am today, much akin to a rocket
+            pushing itself off the ground.
+             
 
-            My enthusiasm for technology drives me to continue to learn something new, and I have enjoyed
-            learning different topics and also teaching others to pursue certain topics if it finds their
-            intereset. 
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
